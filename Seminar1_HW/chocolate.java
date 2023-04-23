@@ -4,7 +4,7 @@ public class Chocolate extends Product{
     
     int CocoaContent;
 
-    public Chocolate(String name, double price, int CocoaContent) {
+    public Chocolate(String name, String brand, double price, int CocoaContent) {
         super(name, price);
         this.CocoaContent = CocoaContent;
     }

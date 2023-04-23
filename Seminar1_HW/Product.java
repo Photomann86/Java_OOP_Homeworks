@@ -12,6 +12,9 @@ public class Product {
         this.price = price;
     }
 
+    public Product(String name, double price) {
+    }
+
     public String getName() {
         return name;
     }
@@ -24,6 +27,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return String.format("name: %s, brand: %s, cost: %f", this.name, this.brand, this.price);
+        return String.format("name: %s, brand: %s, price: %f", this.name, this.brand, this.price);
     }
     }

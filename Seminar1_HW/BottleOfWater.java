@@ -10,6 +10,6 @@ public class BottleOfWater extends Product{
 
     @Override
     public String toString() {
-        return super.toString() + String.format(", volume : %f", this.volume);
+        return super.toString() + String.format("name: %s, brand: %s, price: %f, volume: %f", this.volume);
     }
 }

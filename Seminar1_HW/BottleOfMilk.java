@@ -12,7 +12,7 @@ public class BottleOfMilk extends Product {
 
     @Override
     public String toString() {
-        return super.toString() + String.format(", volume : %f, fat: %f", this.volume, this.fat);
+        return super.toString() + String.format("name: %s, brand: %s, volume : %f, fat: %f", this.volume, this.fat);
     }
     
 }

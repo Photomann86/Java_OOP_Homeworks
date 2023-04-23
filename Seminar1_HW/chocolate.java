@@ -11,7 +11,7 @@ public class Chocolate extends Product{
 
     @Override
     public String toString() {
-        return super.toString() + String.format(", содержание какао: %s", this.CocoaContent);
+        return super.toString() + String.format("name: %s, brand: %s, содержание какао: %s", this.CocoaContent);
     }
 
 }

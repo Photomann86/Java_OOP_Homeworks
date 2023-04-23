@@ -28,6 +28,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return String.format("name: %s, brand: %s, price: %f", this.name, this.brand, this.price);
+        return String.format("наименование: %s, бренд: %s, стоимость: %f", this.name, this.brand, this.price);
     }
     }

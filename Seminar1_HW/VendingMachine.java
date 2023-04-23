@@ -25,7 +25,7 @@ public class VendingMachine {
 
     @Override
     public String toString() {
-        String text = "";
+        String text = " ";
         for (Product product : productList){
             text += product.toString() + "\n";
         }

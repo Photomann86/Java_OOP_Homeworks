@@ -12,7 +12,7 @@ public class Main {
     };
     Plate plate = new Plate(100);
     plate.info();
-    Owner owner = new Owner("Margo", 33);
+    Owner owner = new Owner("Марго", 33);
     while (!owner.checkCats(cats)){
         for (Cat cat:cats) {
             cat.eat(plate);

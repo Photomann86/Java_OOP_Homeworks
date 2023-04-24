@@ -7,14 +7,14 @@ public class Cat {
 
     public Cat(String name, int appetite) {
         if (name.isEmpty()) {
-            throw new RuntimeException("Cat must have name!");
+            throw new RuntimeException("Кот/кошка должен иметь имя");
         } else {
             this.name = name;
         }
         if (appetite > 9) {
             this.appetite = appetite;
         } else {
-            throw new RuntimeException("Appetite must be more 9!");
+            throw new RuntimeException("аппетит должен быть на уровне более 9!");
         }
         this.full = false;
     }
@@ -24,7 +24,7 @@ public class Cat {
     }
 
     public Cat() {
-        this("Bob",15);
+        this("Васька",15);
     }
 
     public boolean getFull() {
@@ -63,8 +63,8 @@ public class Cat {
     }
 
     public String getInfo() {
-        if (full) return name + " is full!";
-        else return name + " is hungry!";
+        if (full) return name + " удовлетворил свой аппетит";
+        else return name + " голоден и зол!";
     }
     
 }
